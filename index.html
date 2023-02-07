@@ -15,10 +15,8 @@
             
                 for (let num=0; num<6;num++){
                     for (let i = 0; i < mapHeight; i++) {
-                        let temp = [];
                         for (let j = 0; j < mapWidth; j++) {
                             tile = data[num * mapWidth * mapHeight + i * mapWidth + j]
-                            temp.push(tile);
                             if (tile < 1000){
                                 document.getElementById("content").innerHTML += "&nbsp";
                             }
