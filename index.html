@@ -28,6 +28,11 @@
                     document.write("<br><br><br><br>"); 
                 }
                 
+                let btn = document.createElement("button");
+                document.body.appendChild(btn);
+                btn.setAttribute("id", "testBtn");
+                
+                document.getElementById(btn).addEventListener("click", changeFont);
             }
             function changeFont(){
                 document.body.style.fontFamily = "monospace";  
