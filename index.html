@@ -18,19 +18,19 @@
                         for (let j = 0; j < mapWidth; j++) {
                             tile = data[num * mapWidth * mapHeight + i * mapWidth + j]
                             if (tile < 1000){
-                                document.getElementById("content").innerHTML += "&nbsp";
+                                document.write("&nbsp");
                             }
                             if (tile < 100){
-                                document.getElementById("content").innerHTML += "&nbsp";
+                                document.write("&nbsp")
                             }
                             if (tile < 10){
-                                document.getElementById("content").innerHTML += "&nbsp";
+                                document.write("&nbsp")
                             }
-                            document.getElementById("content").innerHTML +=(tile + ",")
+                            document.write(tile +",")
                         }
-                        document.getElementById("content").innerHTML +=("<br>"); 
+                        document.write("<br>"); 
                     }
-                    document.getElementById("content").innerHTML +=("<br><br><br><br>"); 
+                    document.write("<br><br><br><br>"); 
                 }
                 
             }
