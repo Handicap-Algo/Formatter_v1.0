@@ -1,1 +1,1 @@
-# https://handicap-algo.github.io/tFormatter_v1.0/
+# https://handicap-algo.github.io/Formatter_v1.0/
